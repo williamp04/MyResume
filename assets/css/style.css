@@ -375,7 +375,12 @@ body.active .icon-box{
   background-color: #262626;
 }
 
+
 body.active .php-email-form {
+  background-color: #313131;
+}
+
+body.active .info{
   background-color: #313131;
 }
 

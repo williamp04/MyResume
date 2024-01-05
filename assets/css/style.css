@@ -310,7 +310,9 @@ h6 {
 
   border: solid 2px #fff;
 }
-
+body.active .body{
+  background-color: #313131;
+}
 body.active header {
   background-color: #313131;
 }
@@ -407,7 +409,7 @@ body.active #footer{
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(29, 29, 29, 0.397);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -551,6 +553,13 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.foto_about{
+  height: 100%;
+  width: 70%;
+  margin-top: -10%;
+  margin-left: 20%;
 }
 
 /*--------------------------------------------------------------
